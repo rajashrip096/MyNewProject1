@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C217049-FA83-4EBE-8E5D-9BD07A725F82}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MyNewProject1</RootNamespace>
+    <AssemblyName>MyNewProject1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MyNewProject1.ArrayDemos.CharacterArrayDemo</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstrctandInterface\AbstractDemoUsingConstructor.cs" />
+    <Compile Include="AbstrctandInterface\AbstrctDemo.cs" />
+    <Compile Include="AbstrctandInterface\InterfaceDemo.cs" />
+    <Compile Include="ArrayDemos\CharacterArrayDemo.cs" />
+    <Compile Include="ArrayDemos\OddNoArray.cs" />
+    <Compile Include="ArrayDemos\SumOfArray.cs" />
+    <Compile Include="ArrayDemos\SumOfEvenNoArray.cs" />
+    <Compile Include="Assignment 1\AreaEquilateralTriangle.cs" />
+    <Compile Include="Assignment 1\EvenOdd.cs" />
+    <Compile Include="Assignment 1\OperatorMath.cs" />
+    <Compile Include="Assignment 1\Pattern1.cs" />
+    <Compile Include="Assignment 1\PercentageAvgTotal.cs" />
+    <Compile Include="Assignment for Loop\Countno.cs" />
+    <Compile Include="Assignment for Loop\EvenandOddsquarecs.cs" />
+    <Compile Include="Assignment for Loop\FibonacciesSeris.cs" />
+    <Compile Include="Assignment for Loop\PatternNo2.cs" />
+    <Compile Include="Assignment for Loop\PatternNumber.cs" />
+    <Compile Include="Assignment for Loop\PatternStar.cs" />
+    <Compile Include="Assignment for Loop\PrintNo1to100.cs" />
+    <Compile Include="Assignment for Loop\program13.cs" />
+    <Compile Include="Assignment for Loop\Program2.cs" />
+    <Compile Include="Assignment for Loop\Program3.cs" />
+    <Compile Include="Assignment for Loop\Program9.cs" />
+    <Compile Include="Assignment for Loop\SeriesNo.cs" />
+    <Compile Include="Assignment for Loop\SpyNo.cs" />
+    <Compile Include="Assignment for Loop\SumFact.cs" />
+    <Compile Include="Assignment for Loop\TrimorphicNo.cs" />
+    <Compile Include="Assignment for Loop\TwinPrimeNo.cs" />
+    <Compile Include="Basic\Addition.cs" />
+    <Compile Include="Basic\Circle.cs" />
+    <Compile Include="Basic\Datatypedemo.cs" />
+    <Compile Include="Basic\Divisibalebyfive.cs" />
+    <Compile Include="Basic\GreaterNo.cs" />
+    <Compile Include="Basic\Onetofive.cs" />
+    <Compile Include="Basic\Positive.cs" />
+    <Compile Include="Basic\Rectangle.cs" />
+    <Compile Include="Basic\Swapping.cs" />
+    <Compile Include="Basic\Tentoone.cs" />
+    <Compile Include="BranchingStatement\DivisibleBy11.cs" />
+    <Compile Include="BranchingStatement\LeafYear.cs" />
+    <Compile Include="BranchingStatement\OddEvenSwitchCase.cs" />
+    <Compile Include="BranchingStatement\SimpleCalculatorSwitchCase.cs" />
+    <Compile Include="BranchingStatement\SwitchDemo1.cs" />
+    <Compile Include="BranchingStatement\TenaryAbsoluteProgram.cs" />
+    <Compile Include="BranchingStatement\TernaryOddEven.cs" />
+    <Compile Include="BranchingStatement\TernaryPositiveNegative.cs" />
+    <Compile Include="BranchingStatement\VowelSwitchcase.cs" />
+    <Compile Include="ConditinalDemo\CharalphaDigitSymbol.cs" />
+    <Compile Include="ConditinalDemo\DivisibleByFive.cs" />
+    <Compile Include="ConditinalDemo\GreaterThreeNo.cs" />
+    <Compile Include="ConditinalDemo\OddEven.cs" />
+    <Compile Include="ConditinalDemo\PositiveNegative.cs" />
+    <Compile Include="ConditinalDemo\PositivenegativeZero.cs" />
+    <Compile Include="Containment\Baggetset.cs" />
+    <Compile Include="Containment\Car.cs" />
+    <Compile Include="Containment\Shipmentgetset.cs" />
+    <Compile Include="Inheritance\BaseConstructor2.cs" />
+    <Compile Include="Inheritance\BaseConstructorDemo.cs" />
+    <Compile Include="Inheritance\HierarchicalDemo.cs" />
+    <Compile Include="Inheritance\InheritanceDemo.cs" />
+    <Compile Include="Inheritance\MultilevelInheritance.cs" />
+    <Compile Include="Inheritance\ParentBaseKeyword.cs" />
+    <Compile Include="LoopDemo\AllAlphabet.cs" />
+    <Compile Include="LoopDemo\ArmstrongNo.cs" />
+    <Compile Include="LoopDemo\Automorphic.cs" />
+    <Compile Include="LoopDemo\CountNumber.cs" />
+    <Compile Include="LoopDemo\DecimalToBinary.cs" />
+    <Compile Include="LoopDemo\DoWhileDemo.cs" />
+    <Compile Include="LoopDemo\DoWhileSwitchhDemo.cs" />
+    <Compile Include="LoopDemo\FactNo.cs" />
+    <Compile Include="LoopDemo\factorial.cs" />
+    <Compile Include="LoopDemo\Factorial1to5.cs" />
+    <Compile Include="LoopDemo\FactThreeNdFive.cs" />
+    <Compile Include="LoopDemo\FibonacciSeries.cs" />
+    <Compile Include="LoopDemo\FindPrimeNo.cs" />
+    <Compile Include="LoopDemo\GrossSalary.cs" />
+    <Compile Include="LoopDemo\KaprekarNo.cs" />
+    <Compile Include="LoopDemo\MagicNumber.cs" />
+    <Compile Include="LoopDemo\NestedLoop.cs" />
+    <Compile Include="LoopDemo\NumbePattern.cs" />
+    <Compile Include="LoopDemo\OddEvenTest.cs" />
+    <Compile Include="LoopDemo\OddNo.cs" />
+    <Compile Include="LoopDemo\PatternNestedLoop.cs" />
+    <Compile Include="LoopDemo\Power.cs" />
+    <Compile Include="LoopDemo\PrimeDemo.cs" />
+    <Compile Include="LoopDemo\PrintEvenNo.cs" />
+    <Compile Include="LoopDemo\PrintNo1To10WhileLoop.cs" />
+    <Compile Include="LoopDemo\PrintOddNumber.cs" />
+    <Compile Include="LoopDemo\Printonetofive.cs" />
+    <Compile Include="LoopDemo\PrintTable.cs" />
+    <Compile Include="LoopDemo\PrintTwentyFivetoFifteen.cs" />
+    <Compile Include="LoopDemo\ProductOfDigit.cs" />
+    <Compile Include="LoopDemo\ReverseNo.cs" />
+    <Compile Include="LoopDemo\ReversePallindrom.cs" />
+    <Compile Include="LoopDemo\SeriesNo.cs" />
+    <Compile Include="LoopDemo\SpyNo.cs" />
+    <Compile Include="LoopDemo\Square.cs" />
+    <Compile Include="LoopDemo\SumOfAllEvenNo.cs" />
+    <Compile Include="LoopDemo\SumOfprimeNo.cs" />
+    <Compile Include="LoopDemo\UsingBreakstmt.cs" />
+    <Compile Include="Oops\CalculateArithmtic.cs" />
+    <Compile Include="Oops\Car.cs" />
+    <Compile Include="Oops\ConstructorDemo.cs" />
+    <Compile Include="Oops\ConstructorOverloading.cs" />
+    <Compile Include="Oops\Employee.cs" />
+    <Compile Include="Oops\Employee1.cs" />
+    <Compile Include="Oops\MethodOverloadArea.cs" />
+    <Compile Include="Oops\OverLoadingStaticMethod.cs" />
+    <Compile Include="Oops\Shopping.cs" />
+    <Compile Include="Oops\Student.cs" />
+    <Compile Include="Oops\Student1.cs" />
+    <Compile Include="Oops\StudentProperty.cs" />
+    <Compile Include="Oops\ThisKeyword.cs" />
+    <Compile Include="Overriding\BaseDemo.cs" />
+    <Compile Include="Overriding\Fruit.cs" />
+    <Compile Include="Overriding\Hospital.cs" />
+    <Compile Include="Overriding\OverridingDemo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

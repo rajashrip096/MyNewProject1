@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyNewProject1.ArrayDemos.CharacterArrayDemo</StartupObject>
+    <StartupObject>MyNewProject1.ArrayDemos.MergeArray</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,18 +46,45 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstrctandInterface\AbstractDemo2.cs" />
     <Compile Include="AbstrctandInterface\AbstractDemoUsingConstructor.cs" />
+    <Compile Include="AbstrctandInterface\AbstractionDemo3.cs" />
     <Compile Include="AbstrctandInterface\AbstrctDemo.cs" />
     <Compile Include="AbstrctandInterface\InterfaceDemo.cs" />
+    <Compile Include="ArrayDemos\ArrayCreation.cs" />
+    <Compile Include="ArrayDemos\ArrayReverPrint.cs" />
+    <Compile Include="ArrayDemos\ArraySearch.cs" />
+    <Compile Include="ArrayDemos\ArrayWithMethod.cs" />
     <Compile Include="ArrayDemos\CharacterArrayDemo.cs" />
+    <Compile Include="ArrayDemos\DisplayEvenElement.cs" />
+    <Compile Include="ArrayDemos\FrequencyElement2.cs" />
+    <Compile Include="ArrayDemos\FrequencyofElement.cs" />
+    <Compile Include="ArrayDemos\MaxElement.cs" />
+    <Compile Include="ArrayDemos\MaxNo.cs" />
+    <Compile Include="ArrayDemos\MergeArray.cs" />
+    <Compile Include="ArrayDemos\MinNo.cs" />
     <Compile Include="ArrayDemos\OddNoArray.cs" />
+    <Compile Include="ArrayDemos\PrintPrimeNo.cs" />
+    <Compile Include="ArrayDemos\RevArray2.cs" />
+    <Compile Include="ArrayDemos\ReverseArray.cs" />
     <Compile Include="ArrayDemos\SumOfArray.cs" />
     <Compile Include="ArrayDemos\SumOfEvenNoArray.cs" />
+    <Compile Include="ArrayDemos\SumOfPrimeNo.cs" />
     <Compile Include="Assignment 1\AreaEquilateralTriangle.cs" />
     <Compile Include="Assignment 1\EvenOdd.cs" />
     <Compile Include="Assignment 1\OperatorMath.cs" />
     <Compile Include="Assignment 1\Pattern1.cs" />
     <Compile Include="Assignment 1\PercentageAvgTotal.cs" />
+    <Compile Include="Assignment Array 3\CarContainment.cs" />
+    <Compile Include="Assignment Array 3\Class2.cs" />
+    <Compile Include="Assignment Array 3\Class9.cs" />
+    <Compile Include="Assignment Array 3\DuplicateArrayRemove.cs" />
+    <Compile Include="Assignment Array 3\EvenOddCount.cs" />
+    <Compile Include="Assignment Array 3\MinimunFrequency3.cs" />
+    <Compile Include="Assignment Array 3\PenContainment.cs" />
+    <Compile Include="Assignment Array 3\PenContainmentgeterseter.cs" />
+    <Compile Include="Assignment Array 3\SeparetZeroandnonzero.cs" />
+    <Compile Include="Assignment Array 3\Square.cs" />
     <Compile Include="Assignment for Loop\Countno.cs" />
     <Compile Include="Assignment for Loop\EvenandOddsquarecs.cs" />
     <Compile Include="Assignment for Loop\FibonacciesSeris.cs" />
@@ -101,6 +128,7 @@
     <Compile Include="ConditinalDemo\PositivenegativeZero.cs" />
     <Compile Include="Containment\Baggetset.cs" />
     <Compile Include="Containment\Car.cs" />
+    <Compile Include="Containment\Employee.cs" />
     <Compile Include="Containment\Shipmentgetset.cs" />
     <Compile Include="Inheritance\BaseConstructor2.cs" />
     <Compile Include="Inheritance\BaseConstructorDemo.cs" />

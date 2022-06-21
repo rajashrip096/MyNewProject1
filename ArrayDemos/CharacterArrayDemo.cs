@@ -18,6 +18,7 @@ namespace MyNewProject1.ArrayDemos
                 ch[i] = Convert.ToChar(Console.ReadLine());
                
             }
+           
             Console.WriteLine(string.Join(" ",ch));
           
             Console.ReadLine();

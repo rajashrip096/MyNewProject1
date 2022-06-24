@@ -15,11 +15,11 @@ namespace MyNewProject1.ArrayDemos
             char[] ch1 = new char[4];
             for(int i=0;i<ch1.Length;i++)
             {
-                ch[i] = Convert.ToChar(Console.ReadLine());
+                ch1[i] = Convert.ToChar(Console.ReadLine());
                
             }
            
-            Console.WriteLine(string.Join(" ",ch));
+            Console.WriteLine(string.Join(" ",ch1));
           
             Console.ReadLine();
 

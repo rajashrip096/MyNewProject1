@@ -10,17 +10,19 @@ namespace MyNewProject1.Assignment_Array_3
     {
         static void Main(string[] args)
         {
-            int count = 0;
-            int[] a = { 1, 2, 4, 5, 9, 25 };
-            for(int i=0;i<a.Length;i++)
+            int[] a = { 23, 43, 25, 49, 12, 9, 78, 66, 39, 0 };
+           
+            foreach(int m in a)
             {
-                int square = a[i] * a[i];
-                for(int j=0;j<a.Length;j++)
+                for (int i = 1; i < m; i++)
                 {
-                    if(a[j]==square)
-                    Console.WriteLine(a[i]);
-                    Console.ReadLine();
+                    if (i * i==m)
+                    {
+                        Console.WriteLine(m);
+                        Console.ReadLine();
+                    }
                 }
+
 
             }
         }

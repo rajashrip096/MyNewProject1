@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyNewProject1.ArrayDemos.MergeArray</StartupObject>
+    <StartupObject>MyNewProject1.stringDemos.ReverseExcept1last</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,7 +55,9 @@
     <Compile Include="ArrayDemos\ArrayReverPrint.cs" />
     <Compile Include="ArrayDemos\ArraySearch.cs" />
     <Compile Include="ArrayDemos\ArrayWithMethod.cs" />
+    <Compile Include="ArrayDemos\AvgOfEachArray.cs" />
     <Compile Include="ArrayDemos\CharacterArrayDemo.cs" />
+    <Compile Include="ArrayDemos\ColumSum.cs" />
     <Compile Include="ArrayDemos\DisplayEvenElement.cs" />
     <Compile Include="ArrayDemos\FrequencyElement2.cs" />
     <Compile Include="ArrayDemos\FrequencyofElement.cs" />
@@ -64,12 +66,17 @@
     <Compile Include="ArrayDemos\MergeArray.cs" />
     <Compile Include="ArrayDemos\MinNo.cs" />
     <Compile Include="ArrayDemos\OddNoArray.cs" />
+    <Compile Include="ArrayDemos\OuterElement2DArray.cs" />
+    <Compile Include="ArrayDemos\Pattern2-2DArray.cs" />
+    <Compile Include="ArrayDemos\Pattern2dArray.cs" />
     <Compile Include="ArrayDemos\PrintPrimeNo.cs" />
     <Compile Include="ArrayDemos\RevArray2.cs" />
     <Compile Include="ArrayDemos\ReverseArray.cs" />
     <Compile Include="ArrayDemos\SumOfArray.cs" />
     <Compile Include="ArrayDemos\SumOfEvenNoArray.cs" />
     <Compile Include="ArrayDemos\SumOfPrimeNo.cs" />
+    <Compile Include="ArrayDemos\TwoDArray.cs" />
+    <Compile Include="ArrayDemos\TwoDArraySum.cs" />
     <Compile Include="Assignment 1\AreaEquilateralTriangle.cs" />
     <Compile Include="Assignment 1\EvenOdd.cs" />
     <Compile Include="Assignment 1\OperatorMath.cs" />
@@ -79,10 +86,12 @@
     <Compile Include="Assignment Array 3\Class2.cs" />
     <Compile Include="Assignment Array 3\Class9.cs" />
     <Compile Include="Assignment Array 3\DuplicateArrayRemove.cs" />
+    <Compile Include="Assignment Array 3\DuplicateElement.cs" />
     <Compile Include="Assignment Array 3\EvenOddCount.cs" />
     <Compile Include="Assignment Array 3\MinimunFrequency3.cs" />
     <Compile Include="Assignment Array 3\PenContainment.cs" />
     <Compile Include="Assignment Array 3\PenContainmentgeterseter.cs" />
+    <Compile Include="Assignment Array 3\Replacezero.cs" />
     <Compile Include="Assignment Array 3\SeparetZeroandnonzero.cs" />
     <Compile Include="Assignment Array 3\Square.cs" />
     <Compile Include="Assignment for Loop\Countno.cs" />
@@ -193,6 +202,18 @@
     <Compile Include="Overriding\OverridingDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="stringDemos\CharacterSort.cs" />
+    <Compile Include="stringDemos\Class10.cs" />
+    <Compile Include="stringDemos\Methods.cs" />
+    <Compile Include="stringDemos\PallindromOrNot.cs" />
+    <Compile Include="stringDemos\ReverseExcept1last.cs" />
+    <Compile Include="stringDemos\ReverseWords.cs" />
+    <Compile Include="stringDemos\StringDemos.cs" />
+    <Compile Include="stringDemos\StringPattern.cs" />
+    <Compile Include="stringDemos\StringReverse.cs" />
+    <Compile Include="stringDemos\SumofDigit.cs" />
+    <Compile Include="stringDemos\Test.cs" />
+    <Compile Include="stringDemos\ToggleWord.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

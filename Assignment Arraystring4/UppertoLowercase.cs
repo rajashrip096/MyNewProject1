@@ -4,24 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyNewProject1.stringDemos
+namespace MyNewProject1.Assignment_Arraystring4
 {
-    class Class10
+    //6.	Write a  program to convert uppercase string to lowercase
+    class UppertoLowercase
     {
-        // count the number of words in a string
         static void Main(string[] args)
         {
             Console.WriteLine("Enter the string");
             string s = Console.ReadLine();
-            string[] s1 = s.Split(' ');
-            int count = 0;
-            for (int i = 0; i <= s.Length; i++)
-            {
-                count++;
-            }
-            Console.WriteLine(count);
 
+            String newLower = s.ToLower();
+           
+            Console.WriteLine(newLower);
             Console.ReadLine();
+
         }
     }
 }

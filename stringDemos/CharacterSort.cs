@@ -13,9 +13,9 @@ namespace MyNewProject1.stringDemos
             Console.WriteLine("Enter the string");
             string s = Console.ReadLine();
             string[] str = s.Split(' ');
-            for(int i=0;i<s.Length-1;i++)
+            for(int i=0;i<str.Length-1;i++)
             {
-                for(int j=0;j<s.Length-1;j++)
+                for(int j=0;j<str.Length-1;j++)
                 {
                     if (str[i].CompareTo(str[j])==1)
                     {

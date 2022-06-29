@@ -32,7 +32,7 @@ namespace MyNewProject1.Oops
         static void Main(string[] args)
         {
             MethodOverloadArea m = new MethodOverloadArea();
-            m.area(4, 4);
+            m.area(4.0, 4.0);
             m.area(2, 3);
             m.area(10.0, 2);
             m.area(2.6);

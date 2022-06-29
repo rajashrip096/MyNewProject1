@@ -15,15 +15,15 @@ namespace MyNewProject1.Assignment_Array_3
             bool isVisited = false;
             for(int i=0;i<a.Length;i++)
             {
-                for (int j = 0; j < a.Length; j++)
+                for (int k = i - 1; k >= 0; k--)
                 {
-                    if(a[i]==a[j])
+                    if(a[i]==a[k])
                     {
                         isVisited = true;
                         break;
                     }
                 }
-                if(isVisited = true)
+                if(isVisited == false)
                 {
                     for (int j = 0; j < a.Length; i++)
                     {
@@ -31,7 +31,7 @@ namespace MyNewProject1.Assignment_Array_3
                         {
                             count++;
                         }
-                        if (count == 1)
+                        if (count >1)
                         {
                             Console.WriteLine(count);
                             Console.ReadLine();

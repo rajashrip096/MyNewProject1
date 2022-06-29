@@ -21,12 +21,12 @@ namespace MyNewProject1.stringDemos
                 else
                 {
                     string word = s[i];
-                    string reverseword = " ";
+                    string reverseword = "  ";
                     for(int j=word.Length-1;j>=0;j--)
                     {
                         reverseword = reverseword + word[j];
                     }
-                    revword = "  "+  revword +  " " +   reverseword;
+                    revword = "   "+  revword     +  "  " +   reverseword;
                 }
             }
             return revword;

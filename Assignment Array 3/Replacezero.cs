@@ -24,7 +24,7 @@ namespace MyNewProject1.Assignment_Array_3
                     a1[i] = a[i];
                 }
             }
-            Console.WriteLine(string.Join ("",a1));
+            Console.WriteLine(string.Join ("  ",a1));
             Console.ReadLine();
             
         }

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyNewProject1.stringDemos.LargestSubArray</StartupObject>
+    <StartupObject>MyNewProject1.LoopDemo.FindPrimeNo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -231,11 +231,13 @@
     <Compile Include="stringDemos\Class10.cs" />
     <Compile Include="stringDemos\Cuckoo.cs" />
     <Compile Include="stringDemos\FindLongWord.cs" />
+    <Compile Include="stringDemos\LargestArray1.cs" />
     <Compile Include="stringDemos\LargestSubArray.cs" />
     <Compile Include="stringDemos\Methods.cs" />
     <Compile Include="stringDemos\PallindromOrNot.cs" />
     <Compile Include="stringDemos\ReverseExcept1last.cs" />
     <Compile Include="stringDemos\ReverseWords.cs" />
+    <Compile Include="stringDemos\StringConcatenatination.cs" />
     <Compile Include="stringDemos\StringDemos.cs" />
     <Compile Include="stringDemos\StringPattern.cs" />
     <Compile Include="stringDemos\StringReverse.cs" />

@@ -23,7 +23,7 @@ namespace MyNewProject1.stringDemos
             {
                 zero = 0;
                 ones = 0;
-                for (j = i; j <= arr.Length; j++)
+                for (j = i; j <arr.Length; j++)
                 {
                     if (arr[j] == 0)
                     {

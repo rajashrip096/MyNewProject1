@@ -28,6 +28,7 @@ namespace MyNewProject1.stringDemos
             }
             return newcasestr;
         }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Enter the string");

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyNewProject1.LoopDemo.FindPrimeNo</StartupObject>
+    <StartupObject>MyNewProject1.CollectionDemo.Testt</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -152,6 +152,37 @@
     <Compile Include="BranchingStatement\TernaryOddEven.cs" />
     <Compile Include="BranchingStatement\TernaryPositiveNegative.cs" />
     <Compile Include="BranchingStatement\VowelSwitchcase.cs" />
+    <Compile Include="CollectionDemo\Class1.cs" />
+    <Compile Include="CollectionDemo\DemoSortedList.cs" />
+    <Compile Include="CollectionDemo\DemoSortedListcs.cs" />
+    <Compile Include="CollectionDemo\DictionaeryDemo2.cs" />
+    <Compile Include="CollectionDemo\DictionaryD3.cs" />
+    <Compile Include="CollectionDemo\DictionaryDemo.cs" />
+    <Compile Include="CollectionDemo\Emp.cs" />
+    <Compile Include="CollectionDemo\Empp.cs" />
+    <Compile Include="CollectionDemo\HashSetDemo.cs" />
+    <Compile Include="CollectionDemo\LinkListDemo.cs" />
+    <Compile Include="CollectionDemo\QueueDemo.cs" />
+    <Compile Include="CollectionDemo\SortedList.cs" />
+    <Compile Include="CollectionDemo\StackDemo.cs" />
+    <Compile Include="CollectionDemo\Testt.cs" />
+    <Compile Include="CollectionTest\ConvertListToarray6.cs" />
+    <Compile Include="CollectionTest\DictionaryCreate13.cs" />
+    <Compile Include="CollectionTest\DictionaryGetkey11.cs" />
+    <Compile Include="CollectionTest\DictionaryGetValue12cs.cs" />
+    <Compile Include="CollectionTest\DictionaryKeyValuep10.cs" />
+    <Compile Include="CollectionTest\Emp1.cs" />
+    <Compile Include="CollectionTest\LinkListPro16.cs" />
+    <Compile Include="CollectionTest\ListC2.cs" />
+    <Compile Include="CollectionTest\Listelement1.cs" />
+    <Compile Include="CollectionTest\ListReverseOrder7.cs" />
+    <Compile Include="CollectionTest\ListSwap.cs" />
+    <Compile Include="CollectionTest\MultipleCatchEception17.cs" />
+    <Compile Include="CollectionTest\QueueD14.cs" />
+    <Compile Include="CollectionTest\ReplaceSecp4.cs" />
+    <Compile Include="CollectionTest\SortListPro8.cs" />
+    <Compile Include="CollectionTest\StackP15.cs" />
+    <Compile Include="CollectionTest\StudList5.cs" />
     <Compile Include="ConditinalDemo\CharalphaDigitSymbol.cs" />
     <Compile Include="ConditinalDemo\DivisibleByFive.cs" />
     <Compile Include="ConditinalDemo\GreaterThreeNo.cs" />
@@ -162,6 +193,10 @@
     <Compile Include="Containment\Car.cs" />
     <Compile Include="Containment\Employee.cs" />
     <Compile Include="Containment\Shipmentgetset.cs" />
+    <Compile Include="ExceptionHandlingDemo\Class8.cs" />
+    <Compile Include="ExceptionHandlingDemo\ExceptionDemo.cs" />
+    <Compile Include="ExceptionHandlingDemo\ExceptionPropagationdemo.cs" />
+    <Compile Include="ExceptionHandlingDemo\FinallyKeywordDemo.cs" />
     <Compile Include="Inheritance\BaseConstructor2.cs" />
     <Compile Include="Inheritance\BaseConstructorDemo.cs" />
     <Compile Include="Inheritance\HierarchicalDemo.cs" />
@@ -224,6 +259,14 @@
     <Compile Include="Overriding\Fruit.cs" />
     <Compile Include="Overriding\Hospital.cs" />
     <Compile Include="Overriding\OverridingDemo.cs" />
+    <Compile Include="Practiceinterview\ArmstrongNocs.cs" />
+    <Compile Include="Practiceinterview\CountWord.cs" />
+    <Compile Include="Practiceinterview\Fibboseries1.cs" />
+    <Compile Include="Practiceinterview\PalindromNo.cs" />
+    <Compile Include="Practiceinterview\PrimeNo.cs" />
+    <Compile Include="Practiceinterview\ReverseARray1.cs" />
+    <Compile Include="Practiceinterview\Stringrev.cs" />
+    <Compile Include="Practiceinterview\Toggleword.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="stringDemos\Anagram1.cs" />

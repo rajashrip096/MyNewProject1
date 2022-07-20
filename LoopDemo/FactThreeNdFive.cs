@@ -16,8 +16,7 @@ namespace MyNewProject1.LoopDemo
            // Console.WriteLine("enter the no");
             //int n1 = Convert.ToInt32(Console.ReadLine());
 
-            for (int i=1;i<=15
-                ;i++)
+            for (int i=1;i<=15;i++)
             {
                 /*if(n%3==0 && n1%5==0)
                 {

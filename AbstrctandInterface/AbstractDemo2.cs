@@ -30,7 +30,7 @@ namespace MyNewProject1.AbstrctandInterface
         static void Main(string[] args)
         {
             //Person p = new Employee();
-           // p.show();
+          // p.show();
             Employee e = new Manager();
             e.show();
             Console.ReadLine();

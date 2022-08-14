@@ -10,7 +10,7 @@ namespace MyNewProject1.ArrayDemos
     {
         static void Main(string[] args)
         {
-            char[] ch = { 'a', 'r', 't', 'p' };
+            //char[] ch = { 'a', 'r', 't', 'p' };
 
             char[] ch1 = new char[4];
             for(int i=0;i<ch1.Length;i++)

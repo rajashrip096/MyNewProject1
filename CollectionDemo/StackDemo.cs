@@ -10,7 +10,7 @@ namespace MyNewProject1.CollectionDemo
     {
         static void Main(string[] args)
         {
-            //Fist in Last out
+            //Last in First Out
             Stack<string> st = new Stack<string>();
             st.Push("A");
             st.Push("B");

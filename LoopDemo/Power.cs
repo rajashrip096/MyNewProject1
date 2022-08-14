@@ -26,4 +26,44 @@ namespace MyNewProject1.LoopDemo
             Console.ReadLine();
         }
     }
+    class Coprime
+    {
+        static int gcd(int a, int b)
+        {
+            if (a == 0 || b == 0)
+            {
+                return 0;
+            }
+            if (a == b)
+            {
+                return a;
+            }
+            if (a > b)
+            {
+                return gcd(a - b, b);
+            }
+            else
+            {
+                return gcd(a, b - a);
+            }
+        }
+            static void coprime(int a,int b)
+            {
+                if(gcd(a,b)==1)
+                {
+                    Console.WriteLine("Co-prime");
+                }
+                else
+                {
+                    Console.WriteLine("not co-prime");
+                }
+            }
+        
+        static void Main(string[] args)
+        {
+            coprime(5, 6);
+
+
+        }
+    }
 }

@@ -25,8 +25,7 @@ namespace MyNewProject1.stringDemos
                 else
                 {
                     return false;
-                }
-                
+                } 
             }
             else
             {

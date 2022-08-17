@@ -12,39 +12,51 @@ namespace MyNewProject1.Assigment_5_mixprogram
         //array is sorted array and there should be no duplicate in new array.[1M]
         static void Main(string[] args)
         {
-            int[] a = { 1, 2, 3, 4, 2 };
-            int[] b = { 5, 6, 3, 1 };
-            int[] c = new int[a.Length + b.Length];
-            int j = 0;
-            for(int i=0;i<a.Length;i++)
+            Console.WriteLine("Enter the size of two array");
+            int size1 = int.Parse(Console.ReadLine());
+            int size2 = int.Parse(Console.ReadLine());
+
+            int[] a1 = new int[size1];
+            int[] a2 = new int[size2];
+            Console.WriteLine("Enter the first Array");
+            for(int i=0;i<a1.Length;i++)
             {
-                c[j] = a[i];
-                j++;
+                a1[i] = int.Parse(Console.ReadLine());
             }
-            for (int i = 0; i <b.Length; i++)
+            Console.WriteLine(string.Join(" ",a1));
+            Console.WriteLine("Enter the second Array");
+            for(int i=0;i<a2.Length;i++)
             {
-                bool ispresent = false; ;
-                for (int k = j - 1; k >=0 ; k++)
+                a2[i] = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine(string.Join(" ",a2));
+
+            int[] merged = new int[size1 + size2];
+            int j = 0;
+            int k = 0;
+            for(int i=0;i<merged.Length;i++)
+            {
+                if (i < a1.Length)
                 {
-                    if(c[k]==b[i])
-                    {
-                        ispresent = true;
-                        break;
-                    }
-                }
-                if(ispresent==false)
-                {
-                    c[j] = b[i];
+                    merged[i] = a1[j];
                     j++;
                 }
+                else
+                {
+                    merged[i] = a2[k];
+                    k++;
+                }
             }
-            Console.WriteLine(string.Join("",a));
-            Console.WriteLine(string.Join("",b));
+            Array.Sort(merged);
+            Console.WriteLine("Merged Array is :");
+            Console.WriteLine(string.Join(" ",merged));
+            Console.WriteLine();
 
-            for(int i=0;i<j;i++)
-            {
-                Console.WriteLine(c[i]+ " ");
-            }
+            HashSet<int> d = new HashSet<int>();
+            for (int i = 0; i < merged.Length; i++)
+                d.Add(merged[i]);
+            Console.WriteLine("sorted ne array:");
+            Console.WriteLine(string.Join(" ",d));
             Console.ReadLine();
         }
     }

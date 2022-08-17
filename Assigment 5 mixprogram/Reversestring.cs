@@ -6,6 +6,15 @@ using System.Threading.Tasks;
 
 namespace MyNewProject1.Assigment_5_mixprogram
 {
+    /*5.Reverse middle words of a string[1M]
+    Given a string str, print reverse all words except the first and last words.
+
+    Examples:
+    Input  : Hi how are you students
+    Output  : Hi woh era uoy students
+    Input : I am fine
+    Output : I ma fine*/
+
     class Reversestring
     {
         public static string revemiddle(string str)

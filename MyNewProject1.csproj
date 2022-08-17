@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyNewProject1.Assigment_5_mixprogram.ImelNop1</StartupObject>
+    <StartupObject>MyNewProject1.Assigment_5_mixprogram.Stringp8</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -82,10 +82,12 @@
     <Compile Include="Assigment 5 mixprogram\ExceptionHandlingp10.cs" />
     <Compile Include="Assigment 5 mixprogram\FrequencyOfeachp7.cs" />
     <Compile Include="Assigment 5 mixprogram\ImelNop1.cs" />
+    <Compile Include="Assigment 5 mixprogram\Linkedlistp4.cs" />
     <Compile Include="Assigment 5 mixprogram\MergeArrayp2.cs" />
     <Compile Include="Assigment 5 mixprogram\PatternProgram9.cs" />
     <Compile Include="Assigment 5 mixprogram\Reversestring.cs" />
     <Compile Include="Assigment 5 mixprogram\RevlinkedListusingStack.cs" />
+    <Compile Include="Assigment 5 mixprogram\Stringp8.cs" />
     <Compile Include="Assignment 1\AreaEquilateralTriangle.cs" />
     <Compile Include="Assignment 1\EvenOdd.cs" />
     <Compile Include="Assignment 1\OperatorMath.cs" />

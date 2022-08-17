@@ -8,37 +8,41 @@ namespace MyNewProject1.Assigment_5_mixprogram
 {
     //10.WAP to accept a number and check whether it is binary or not.
     //If not  throw custom exception InvalidBinaryNumber.
-    class InvalidBinaryNumber:ApplicationException
+    class InvalidBinaryNumberException:ApplicationException
     {
+        public InvalidBinaryNumberException(string msg):base(msg)
+        {
 
+        }
     }
     class ExceptionHandlingp10
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Enter binary no");
-            int num = int.Parse(Console.ReadLine());
-            
-            public int binaryno
+            int bin = int.Parse(Console.ReadLine());
+            bool isbinary = true;
+
+            while (bin > 0)
             {
-                set
+                int digit = bin % 10;
+                if (digit>1)
                 {
-                    if (binaryno < 0)
-                        throw new InvalidBinaryNumber("Incorrect binary no");
-                    else
-                        this.binaryno= value;
+                    throw new InvalidBinaryNumberException("Binary number should have 0 or 1 only");
                 }
-                get { return binaryno; }
+                bin = bin / 10;
             }
-        ExceptionHandlingp10 e1 = new ExceptionHandlingp10();
-            try
-            {
-                binaryno();
-            }
-            catch(Exception e)
-            {
-                Console.WriteLine("Experience cant be negative");
-            }
+          ExceptionHandlingp10 e1 = new ExceptionHandlingp10();
+              try
+              {
+                 bin = int.Parse(Console.ReadLine());
+              }
+              catch(Exception e)
+              {
+                  Console.WriteLine("Experience cant be negative");
+              }
+            Console.WriteLine(e1);
+        }
     }
     
 }

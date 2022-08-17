@@ -29,15 +29,12 @@ namespace MyNewProject1.Assigment_5_mixprogram
                     if(i%2!=0)
                     {
                         Console.Write(count);
-                        count++;
-                        //Console.WriteLine();
-                        
+                        count++;  
                     }
                     else
                     {
                         Console.Write(ch);
                         ch++;
-                        //Console.WriteLine();
                     }
                 }
                 Console.WriteLine();
@@ -48,17 +45,16 @@ namespace MyNewProject1.Assigment_5_mixprogram
                 int count = 1;
                 for(int j=1;j<=i;j++)
                 {
-                        if (i % 2 != 0)
-                        {
-                            Console.Write(count);
-                            count++;
-                        }
-                        else
-                        {
-                            Console.Write(ch);
-                            ch++;  
-                        }
-                   
+                    if (i % 2 != 0)
+                    {
+                        Console.Write(count);
+                        count++;
+                    }
+                    else
+                    {
+                        Console.Write(ch);
+                        ch++;
+                    }
                 }
                 Console.WriteLine();
             }
@@ -66,4 +62,8 @@ namespace MyNewProject1.Assigment_5_mixprogram
         }
 
     }
+    class Pattern2
+    {
+    }
+
 }

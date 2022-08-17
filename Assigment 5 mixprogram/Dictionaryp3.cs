@@ -6,66 +6,39 @@ using System.Threading.Tasks;
 
 namespace MyNewProject1.Assigment_5_mixprogram
 {
-    class SocietyMember: IComparable<SocietyMember>
+    class SocietyMember
     {
         int memberid;
-      
+        string wing_flat_no;
         string name;
 
-        public int Memberid { get => memberid; set => memberid = value; }
-        
-        public string Name { get => name; set => name = value; }
-
-        public SocietyMember(int memberid, string wing_flatno, string name)
+        public SocietyMember(int memberid, string wing_flat_no, string name)
         {
             this.Memberid = memberid;
-           
+            this.Wing_flat_no = wing_flat_no;
             this.Name = name;
         }
-
-        public override bool Equals(object obj)
-        {
-            return obj is SocietyMember member &&
-                   Memberid == member.Memberid &&
-                   Name == member.Name;
+        public int Memberid 
+        { 
+            get { return memberid; }
+            set { memberid = value; } 
         }
-
-        /* public override int GetHashCode()
-         {
-             int hashCode = 1343516035;
-             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(memberid);
-             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(wing_flatno);
-             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(name);
-             return hashCode;
-         }*/
-        public int CompareTo(SocietyMember other)
+        public string Wing_flat_no 
         {
-            return this.Name.CompareTo(other.Name);
+            get { return wing_flat_no; }
+            set { wing_flat_no = value; } 
+        }
+        public string Name 
+        {
+            get { return name; }
+            set { name = value; } 
         }
         public override string ToString()
         {
-            return "Memberid : " + Memberid + " name :" + Name;
+            return "memberid :" + memberid + "wing_flat_no :" + wing_flat_no + "name :" + name;
         }
     }
-    class Wing_FlatNo:IComparable<Wing_FlatNo>
-    {
-        string wing_flatno;
-
-        public Wing_FlatNo(string wing_flatno)
-        {
-            this.Wing_flatno = wing_flatno;
-        }
-
-        public string Wing_flatno { get => wing_flatno; set => wing_flatno = value; }
-        public int CompareTo(Wing_FlatNo other)
-        {
-            return this.Wing_flatno.CompareTo(other.Wing_flatno);
-        }
-        public override string ToString()
-        {
-            return " Wing_FlatNo :" + Wing_flatno;
-        }
-    }
+  
     class Dictionaryp3
     {
         //3.Assume that there is already  list of members of Society Member{memberid,Wing_flatNo,name}.
@@ -74,15 +47,37 @@ namespace MyNewProject1.Assigment_5_mixprogram
         static void Main(string[] args)
         {
             List<SocietyMember> ll = new List<SocietyMember>();
-            ll.Add(new SocietyMember(1, "A 11", "Raj"));
-            ll.Add(new SocietyMember(2, "B 22", "Siya"));
-            ll.Add(new SocietyMember(3, "C 12", "Diya"));
-            ll.Add(new SocietyMember(4, "D 22", "Navin"));
+            ll.Add(new SocietyMember(1, "A-201 ", "Rajashri"));
+            ll.Add(new SocietyMember(2, "B-405", "Siya"));
+            ll.Add(new SocietyMember(3, "A-201", "Diya"));
+            ll.Add(new SocietyMember(4, "A-201", "Navin"));
+            ll.Add(new SocietyMember(5, "b-201", "Raj"));
+            ll.Add(new SocietyMember(6, "c-201", "Esha"));
             
+            Dictionary<string,List<SocietyMember>> dd = new Dictionary<string,List<SocietyMember>>();
 
-            Dictionary<Wing_FlatNo,int> dd = new Dictionary<Wing_FlatNo,int>();
-
-
+            foreach(SocietyMember m in ll)
+            {
+                if(dd.ContainsKey(m.Wing_flat_no))
+                {
+                    List<SocietyMember> l = new List<SocietyMember>();
+                    l.Add(m);
+                }
+                else
+                {
+                    List<SocietyMember> l1 = new List<SocietyMember>();
+                    l1.Add(m);
+                    dd.Add(m.Wing_flat_no, l1);
+                }
+            }
+            foreach(KeyValuePair<string,List<SocietyMember>> kv in dd)
+            {
+                Console.WriteLine("Flat No :"+kv.Key);     
+          
+                foreach(SocietyMember m in kv.Value )
+                Console.WriteLine(m);
+            }
+            Console.ReadLine();
         }
     }
 }

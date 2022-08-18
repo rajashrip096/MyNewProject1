@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyNewProject1.Assigment_5_mixprogram.Stringp8</StartupObject>
+    <StartupObject>MyNewProject1.Assigment_test_Pena4.TimeSpanp7</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -91,6 +91,12 @@
     <Compile Include="Assigment 5 mixprogram\Reversestring.cs" />
     <Compile Include="Assigment 5 mixprogram\RevlinkedListusingStack.cs" />
     <Compile Include="Assigment 5 mixprogram\Stringp8.cs" />
+    <Compile Include="Assigment test Pena4\ArrayListP6.cs" />
+    <Compile Include="Assigment test Pena4\AverageNo.cs" />
+    <Compile Include="Assigment test Pena4\BiggestNop1.cs" />
+    <Compile Include="Assigment test Pena4\MonthSCp2.cs" />
+    <Compile Include="Assigment test Pena4\Program3Roundby.cs" />
+    <Compile Include="Assigment test Pena4\TimeSpanp7.cs" />
     <Compile Include="Assignment 1\AreaEquilateralTriangle.cs" />
     <Compile Include="Assignment 1\EvenOdd.cs" />
     <Compile Include="Assignment 1\OperatorMath.cs" />

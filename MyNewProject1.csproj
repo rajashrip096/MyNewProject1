@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyNewProject1.Assigment_test_Pena4.TimeSpanp7</StartupObject>
+    <StartupObject>MyNewProject1.AdoDemo.DisConnected</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -54,6 +54,16 @@
     <Compile Include="AbstrctandInterface\AbstractionDemo3.cs" />
     <Compile Include="AbstrctandInterface\AbstrctDemo.cs" />
     <Compile Include="AbstrctandInterface\InterfaceDemo.cs" />
+    <Compile Include="AdoAssignment\DeleteDatafrConnectarch.cs" />
+    <Compile Include="AdoAssignment\InsertDataDisConnected.cs" />
+    <Compile Include="AdoAssignment\InsertDatafrDisconnected.cs" />
+    <Compile Include="AdoAssignment\Program2Insertdata.cs" />
+    <Compile Include="AdoDemo\Adodemo1.cs" />
+    <Compile Include="AdoDemo\DemoDelete.cs" />
+    <Compile Include="AdoDemo\DisConnected.cs" />
+    <Compile Include="AdoDemo\DisConnectedDemo2.cs" />
+    <Compile Include="AdoDemo\InsertDemo.cs" />
+    <Compile Include="AdoDemo\UpdateDemo.cs" />
     <Compile Include="ArrayDemos\ArrayCreation.cs" />
     <Compile Include="ArrayDemos\ArrayReverPrint.cs" />
     <Compile Include="ArrayDemos\ArraySearch.cs" />
@@ -224,6 +234,13 @@
     <Compile Include="Containment\Car.cs" />
     <Compile Include="Containment\Employee.cs" />
     <Compile Include="Containment\Shipmentgetset.cs" />
+    <Compile Include="Delegate\AnamonymousFunAndLambdaFun.cs" />
+    <Compile Include="Delegate\Delegated1.cs" />
+    <Compile Include="Delegate\DelegateDemo2.cs" />
+    <Compile Include="Delegate\DelegateList.cs" />
+    <Compile Include="Delegate\DelegateMethodDemo.cs" />
+    <Compile Include="Delegate\DelegateOverload.cs" />
+    <Compile Include="Delegate\FactorialDeleagte.cs" />
     <Compile Include="ExceptionHandlingDemo\Class8.cs" />
     <Compile Include="ExceptionHandlingDemo\ExceptionDemo.cs" />
     <Compile Include="ExceptionHandlingDemo\ExceptionPropagationdemo.cs" />
@@ -320,6 +337,10 @@
     <Compile Include="stringDemos\SwappingMock1.cs" />
     <Compile Include="stringDemos\Test.cs" />
     <Compile Include="stringDemos\ToggleWord.cs" />
+    <Compile Include="ThreadDemo\CoPrime.cs" />
+    <Compile Include="ThreadDemo\JoinDemo.cs" />
+    <Compile Include="ThreadDemo\Program.cs" />
+    <Compile Include="ThreadDemo\ThreadDemo1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

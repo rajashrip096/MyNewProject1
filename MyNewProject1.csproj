@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyNewProject1.AdoDemo.DisConnected</StartupObject>
+    <StartupObject>MyNewProject1.AdoAssignment.ReadDataFrConnected</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,9 +55,10 @@
     <Compile Include="AbstrctandInterface\AbstrctDemo.cs" />
     <Compile Include="AbstrctandInterface\InterfaceDemo.cs" />
     <Compile Include="AdoAssignment\DeleteDatafrConnectarch.cs" />
-    <Compile Include="AdoAssignment\InsertDataDisConnected.cs" />
     <Compile Include="AdoAssignment\InsertDatafrDisconnected.cs" />
     <Compile Include="AdoAssignment\Program2Insertdata.cs" />
+    <Compile Include="AdoAssignment\ReadDataDisConnectedp4.cs" />
+    <Compile Include="AdoAssignment\ReadDataFrConnected.cs" />
     <Compile Include="AdoDemo\Adodemo1.cs" />
     <Compile Include="AdoDemo\DemoDelete.cs" />
     <Compile Include="AdoDemo\DisConnected.cs" />

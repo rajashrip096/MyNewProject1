@@ -22,10 +22,10 @@ namespace MyNewProject1.AdoAssignment
             con = DBconnect.GetConnection();
 
             sda = new SqlDataAdapter("select * from student", con);
-            //to assign primary key to col in dataset
+            
             sda.MissingSchemaAction = MissingSchemaAction.AddWithKey;
 
-            ds = new DataSet();//Collection of tables
+            ds = new DataSet();
             sda.Fill(ds);
 
             return ds;
@@ -43,7 +43,27 @@ namespace MyNewProject1.AdoAssignment
             dr[1] = nm;
             dr[2] = mks;
             ds.Tables[0].Rows.Add(dr);
-            Console.ReadLine();
+           int result= sda.Update(ds);
+            Console.WriteLine(result > 0 ? "Record inserted " : "Not");
+         
         }
+          
+        public static void showAllStudent()
+        {
+                getAllStudents();
+                foreach (DataRow dr in ds.Tables[0].Rows)
+                {
+                    Console.WriteLine(dr[0] + " " + dr[1] + " " + dr[2]);
+                }
+
+        }
+            static void Main(string[] args)
+            {
+                getAllStudents();
+                AddStudent();
+               showAllStudent();
+
+                Console.ReadLine();
+            }
     }
 }

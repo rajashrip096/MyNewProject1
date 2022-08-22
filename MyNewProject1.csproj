@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyNewProject1.FileIO.AssignmentBinryWrRd</StartupObject>
+    <StartupObject>MyNewProject1.FileIO.StreamfrWrRd</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -250,6 +250,7 @@
     <Compile Include="FileIO\AssignmtSteamWrRd.cs" />
     <Compile Include="FileIO\FileIoDemo.cs" />
     <Compile Include="FileIO\FileReadWrite.cs" />
+    <Compile Include="FileIO\StreamfrWrRd.cs" />
     <Compile Include="Inheritance\BaseConstructor2.cs" />
     <Compile Include="Inheritance\BaseConstructorDemo.cs" />
     <Compile Include="Inheritance\HierarchicalDemo.cs" />

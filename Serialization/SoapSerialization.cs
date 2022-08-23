@@ -8,6 +8,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 
 
+
 namespace MyNewProject1.Serialization
 {
     [Serializable]
@@ -23,7 +24,7 @@ namespace MyNewProject1.Serialization
     }
     class SoapSerialization
     {
-        static void SoapSerializationWrite(Student2 stud)
+        static void SoapSerializationWrite(Student2 stud)      
         {
             try
             {

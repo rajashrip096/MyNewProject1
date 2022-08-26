@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyNewProject1.Serialization.JsonSerializationAssignment</StartupObject>
+    <StartupObject>MyNewProject1.LINQDemo.AssignmentEmpLinqtoObject</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -288,6 +288,8 @@
     <Compile Include="Inheritance\InheritanceDemo.cs" />
     <Compile Include="Inheritance\MultilevelInheritance.cs" />
     <Compile Include="Inheritance\ParentBaseKeyword.cs" />
+    <Compile Include="LINQDemo\AssignmentEmpLinqtoObject.cs" />
+    <Compile Include="LINQDemo\LinqToObjectdemo.cs" />
     <Compile Include="LoopDemo\AllAlphabet.cs" />
     <Compile Include="LoopDemo\ArmstrongNo.cs" />
     <Compile Include="LoopDemo\Automorphic.cs" />

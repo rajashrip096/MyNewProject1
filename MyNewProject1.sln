@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesDemo", "..\Delegat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadDemo", "..\ThreadDemo\ThreadDemo.csproj", "{58EE116A-AC74-4C11-8A34-71D9D81D3B6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdodotnetProject", "..\AdodotnetProject\AdodotnetProject.csproj", "{CD8C5F57-2D38-42D2-8F4E-9342B32C6ECD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdodotnetProject", "..\AdodotnetProject\AdodotnetProject.csproj", "{CD8C5F57-2D38-42D2-8F4E-9342B32C6ECD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
